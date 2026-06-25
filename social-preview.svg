@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#050713"/>
+      <stop offset=".45" stop-color="#111a3d"/>
+      <stop offset="1" stop-color="#042316"/>
+    </linearGradient>
+    <linearGradient id="text" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c4b5fd"/>
+      <stop offset=".55" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="180" cy="80" r="220" fill="#6366f1" opacity=".26"/>
+  <circle cx="980" cy="520" r="260" fill="#22c55e" opacity=".16"/>
+  <rect x="80" y="80" width="1040" height="470" rx="48" fill="white" opacity=".06" stroke="white" stroke-opacity=".16"/>
+  <text x="120" y="190" fill="#ddd6fe" font-family="Arial, sans-serif" font-size="34" font-weight="900">ALL IN ALL PLATFORM</text>
+  <text x="120" y="300" fill="white" font-family="Arial, sans-serif" font-size="76" font-weight="900">Technology for</text>
+  <text x="120" y="390" fill="url(#text)" font-family="Arial, sans-serif" font-size="84" font-weight="900">Human Growth</text>
+  <text x="120" y="470" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="30">Protect • Learn • Build • Create</text>
+</svg>

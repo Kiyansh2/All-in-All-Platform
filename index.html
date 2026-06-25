@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>All in All Platform — Technology for Human Growth</title>
+  <meta name="description" content="The official home of the All in All ecosystem: AI-powered products that protect attention, guide decisions, build habits, improve money choices, and turn ideas into reality." />
+  <meta name="theme-color" content="#050713" />
+  <meta name="color-scheme" content="dark" />
+
+  <meta property="og:title" content="All in All Platform" />
+  <meta property="og:description" content="Technology that helps people become more capable through focus, learning, growth, money, and creativity." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/brand/social-preview.svg" />
+
+  <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/forge-design-system.css" />
+  <link rel="stylesheet" href="css/platform.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <canvas id="starfield" class="starfield" aria-hidden="true"></canvas>
+  <div class="aurora" aria-hidden="true">
+    <span class="aurora-orb orb-1"></span>
+    <span class="aurora-orb orb-2"></span>
+    <span class="aurora-orb orb-3"></span>
+  </div>
+  <div class="grid-layer" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="brand-lockup" href="#top" aria-label="All in All Platform home">
+        <span class="brand-mark" aria-hidden="true">A</span>
+        <span class="brand-text">All in All <b>Platform</b></span>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#products">Products</a>
+        <a href="#ecosystem">Ecosystem</a>
+        <a href="#vision">Vision</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#launch">Launch</a>
+      </div>
+
+      <a class="nav-button" href="#products">Explore apps</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-pad">
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <div class="status-pill">
+            <span class="pulse-dot"></span>
+            <span>Protect • Learn • Build • Create</span>
+          </div>
+
+          <h1>Technology that helps people become <span>more capable.</span></h1>
+
+          <p class="hero-lead">
+            A premium ecosystem of apps for focus, growth, money, ideas, learning, and the future you are building.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#products">Explore the ecosystem</a>
+            <a class="btn btn-ghost" href="#vision">See the vision</a>
+          </div>
+
+          <div class="trust-row" aria-label="Platform highlights">
+            <div><strong>4</strong><span>Live apps</span></div>
+            <div><strong>100%</strong><span>Ownable static build</span></div>
+            <div><strong>0</strong><span>Required paid backend</span></div>
+          </div>
+        </div>
+
+        <div class="ecosystem-visual reveal" aria-label="Interactive ecosystem visualization">
+          <div class="visual-hint">Hover / tap products</div>
+          <div class="orbit-ring orbit-ring-1"></div>
+          <div class="orbit-ring orbit-ring-2"></div>
+          <div class="orbit-ring orbit-ring-3"></div>
+
+          <a class="orbit-core" href="#products" data-focus-app="platform">
+            <strong>All in All</strong>
+            <span>Capability Platform</span>
+          </a>
+
+          <button class="orbit-node node-1" data-app="focus" type="button">
+            <b>🛡</b><span>Focus</span>
+          </button>
+          <button class="orbit-node node-2" data-app="coach" type="button">
+            <b>🤖</b><span>Coach</span>
+          </button>
+          <button class="orbit-node node-3" data-app="growth" type="button">
+            <b>🌱</b><span>Growth</span>
+          </button>
+          <button class="orbit-node node-4" data-app="money" type="button">
+            <b>💰</b><span>Money</span>
+          </button>
+          <button class="orbit-node node-5" data-app="ideas" type="button">
+            <b>💡</b><span>Ideas</span>
+          </button>
+
+          <div class="visual-card" id="visualCard">
+            <small>Selected node</small>
+            <strong>All in All Platform</strong>
+            <p>One home for products that help people protect attention and build capability.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics wrap" aria-label="Platform metrics">
+      <article class="metric-card reveal">
+        <strong data-count="4">0</strong>
+        <span>Live products</span>
+      </article>
+      <article class="metric-card reveal">
+        <strong data-count="8">0</strong>
+        <span>Future concepts</span>
+      </article>
+      <article class="metric-card reveal">
+        <strong>∞</strong>
+        <span>Capability goal</span>
+      </article>
+      <article class="metric-card reveal">
+        <strong>1</strong>
+        <span>Connected mission</span>
+      </article>
+    </section>
+
+    <section class="section-pad" id="products">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <div class="status-pill compact">Product suite</div>
+          <h2>Each app has one clear job.</h2>
+          <p>
+            The platform is not a random collection of demos. Each product owns one part of the user journey.
+          </p>
+        </div>
+
+        <div class="product-grid">
+          <a class="product-card featured reveal" href="https://kiyansh2.github.io/All-in-All/" target="_blank" rel="noopener">
+            <div class="product-top">
+              <span class="product-icon">🛡</span>
+              <span class="badge live">Live</span>
+            </div>
+            <h3>All in All</h3>
+            <p>Protect attention by blocking distractions and redirecting users toward better actions.</p>
+            <div class="product-meta">
+              <span>Protect attention</span>
+              <b>Open →</b>
+            </div>
+          </a>
+
+          <a class="product-card reveal" href="https://kiyansh2.github.io/All-in-All-Ai-Coach/" target="_blank" rel="noopener">
+            <div class="product-top">
+              <span class="product-icon">🤖</span>
+              <span class="badge live">Live</span>
+            </div>
+            <h3>AI Coach</h3>
+            <p>Helps users pause during urges and choose the smallest meaningful next action.</p>
+            <div class="product-meta">
+              <span>Guide decisions</span>
+              <b>Open →</b>
+            </div>
+          </a>
+
+          <a class="product-card reveal" href="https://lifeforge-kiyansh.netlify.app/" target="_blank" rel="noopener">
+            <div class="product-top">
+              <span class="product-icon">🌱</span>
+              <span class="badge live">Live</span>
+            </div>
+            <h3>LifeForge</h3>
+            <p>Turns protected time into habits, skills, goals, and personal progress.</p>
+            <div class="product-meta">
+              <span>Build yourself</span>
+              <b>Open →</b>
+            </div>
+          </a>
+
+          <a class="product-card reveal" href="https://kiyansh2.github.io/MoneyWise/" target="_blank" rel="noopener">
+            <div class="product-top">
+              <span class="product-icon">💰</span>
+              <span class="badge live">Live</span>
+            </div>
+            <h3>MoneyWise</h3>
+            <p>Learn money, plan goals, and think before spending with BuySense.</p>
+            <div class="product-meta">
+              <span>Choose smarter</span>
+              <b>Open →</b>
+            </div>
+          </a>
+
+          <article class="product-card reveal" tabindex="0">
+            <div class="product-top">
+              <span class="product-icon">💡</span>
+              <span class="badge building">Building</span>
+            </div>
+            <h3>IdeaForge</h3>
+            <p>Turn rough ideas into app concepts, feature maps, MVPs, and startup roadmaps.</p>
+            <div class="product-meta">
+              <span>Create ideas</span>
+              <b>Coming soon</b>
+            </div>
+          </article>
+
+          <article class="product-card reveal" tabindex="0">
+            <div class="product-top">
+              <span class="product-icon">🌠</span>
+              <span class="badge planned">Planned</span>
+            </div>
+            <h3>Dream Builder</h3>
+            <p>Transform long-term dreams into timelines, milestones, and daily actions.</p>
+            <div class="product-meta">
+              <span>Plan future</span>
+              <b>Planned</b>
+            </div>
+          </article>
+
+          <article class="product-card reveal" tabindex="0">
+            <div class="product-top">
+              <span class="product-icon">📖</span>
+              <span class="badge research">Research</span>
+            </div>
+            <h3>StoryLens</h3>
+            <p>Explain the story, science, history, and meaning behind objects and places.</p>
+            <div class="product-meta">
+              <span>Learn deeply</span>
+              <b>Future</b>
+            </div>
+          </article>
+
+          <article class="product-card reveal" tabindex="0">
+            <div class="product-top">
+              <span class="product-icon">🌌</span>
+              <span class="badge research">Vision</span>
+            </div>
+            <h3>Curiosity Engine</h3>
+            <p>Replace endless scrolling with useful, fascinating learning moments.</p>
+            <div class="product-meta">
+              <span>Feed curiosity</span>
+              <b>Future</b>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="ecosystem">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <div class="status-pill compact">Ecosystem logic</div>
+          <h2>The user journey is the product.</h2>
+          <p>Someone starts by protecting attention, then gets guidance, builds habits, and makes better decisions.</p>
+        </div>
+
+        <div class="journey-map reveal">
+          <article class="journey-step is-active">
+            <span>01</span>
+            <h3>Protect</h3>
+            <p>All in All stops attention leaks before they become automatic habits.</p>
+          </article>
+          <div class="journey-line"></div>
+          <article class="journey-step">
+            <span>02</span>
+            <h3>Redirect</h3>
+            <p>AI Coach converts distraction urges into small next actions.</p>
+          </article>
+          <div class="journey-line"></div>
+          <article class="journey-step">
+            <span>03</span>
+            <h3>Build</h3>
+            <p>LifeForge turns saved time into habits, skills, and visible progress.</p>
+          </article>
+          <div class="journey-line"></div>
+          <article class="journey-step">
+            <span>04</span>
+            <h3>Decide</h3>
+            <p>MoneyWise helps users think before spending and plan better goals.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="vision">
+      <div class="wrap">
+        <div class="vision-panel reveal">
+          <div class="status-pill compact">Vision</div>
+          <h2>Not more apps. Better humans.</h2>
+          <p>
+            The mission is to build technology that helps people protect attention,
+            understand choices, learn faster, spend smarter, create more, and become more capable over time.
+          </p>
+
+          <div class="principle-grid">
+            <article>
+              <strong>Protect</strong>
+              <span>Stop attention leaks before they become habits.</span>
+            </article>
+            <article>
+              <strong>Guide</strong>
+              <span>Help users make better choices in the moment.</span>
+            </article>
+            <article>
+              <strong>Build</strong>
+              <span>Turn saved time into skills, goals, and growth.</span>
+            </article>
+            <article>
+              <strong>Create</strong>
+              <span>Help ideas become real projects and products.</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="roadmap">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <div class="status-pill compact">Roadmap</div>
+          <h2>Released, building, and beyond.</h2>
+        </div>
+
+        <div class="roadmap-grid">
+          <article class="road-card done reveal">
+            <b>Released</b>
+            <h3>All in All</h3>
+            <p>Attention protection hub.</p>
+          </article>
+          <article class="road-card done reveal">
+            <b>Released</b>
+            <h3>AI Coach</h3>
+            <p>Urge redirection and focus guidance.</p>
+          </article>
+          <article class="road-card done reveal">
+            <b>Released</b>
+            <h3>LifeForge</h3>
+            <p>Growth and self-improvement.</p>
+          </article>
+          <article class="road-card done reveal">
+            <b>Released</b>
+            <h3>MoneyWise</h3>
+            <p>Money learning and BuySense.</p>
+          </article>
+          <article class="road-card building reveal">
+            <b>Building</b>
+            <h3>IdeaForge</h3>
+            <p>Ideas into plans, features, and MVPs.</p>
+          </article>
+          <article class="road-card future reveal">
+            <b>Vision</b>
+            <h3>Dream Builder</h3>
+            <p>Dreams into milestones and daily actions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="launch">
+      <div class="wrap">
+        <div class="launch-panel reveal">
+          <h2>Start with attention. End with capability.</h2>
+          <p>Explore the live products and see how the All in All ecosystem connects.</p>
+          <div class="hero-actions centered">
+            <a class="btn btn-primary" href="https://kiyansh2.github.io/All-in-All/" target="_blank" rel="noopener">Enter the ecosystem</a>
+            <a class="btn btn-ghost" href="#products">View products</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <span>All in All Platform © 2026</span>
+    <span>Protect. Learn. Build. Create.</span>
+  </footer>
+
+  <script src="js/platform.js" defer></script>
+</body>
+</html>

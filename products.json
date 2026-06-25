@@ -1,0 +1,30 @@
+{
+  "live": [
+    {
+      "name": "All in All",
+      "url": "https://kiyansh2.github.io/All-in-All/",
+      "purpose": "Protect attention"
+    },
+    {
+      "name": "AI Coach",
+      "url": "https://kiyansh2.github.io/All-in-All-Ai-Coach/",
+      "purpose": "Guide decisions"
+    },
+    {
+      "name": "LifeForge",
+      "url": "https://lifeforge-kiyansh.netlify.app/",
+      "purpose": "Build yourself"
+    },
+    {
+      "name": "MoneyWise",
+      "url": "https://kiyansh2.github.io/MoneyWise/",
+      "purpose": "Choose smarter"
+    }
+  ],
+  "future": [
+    "IdeaForge",
+    "Dream Builder",
+    "StoryLens",
+    "Curiosity Engine"
+  ]
+}
